@@ -19,9 +19,6 @@ function AppointmentsPage() {
          Autem cum delectus deserunt exercitationem, fugiat illum iste iusto natus nobis nostrum perferendis provident qui quos recusandae sapiente tempora
          tempore unde, voluptas. Ab, deserunt est fugiat fugit ipsam saepe sint ullam?
        </p>
-      <p>
-        Leer <a href="">hier</a> meer over gaatjes
-      </p>
     </div>
   );
 }

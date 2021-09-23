@@ -7,23 +7,22 @@ import WhiteningPage from './pages/Whitening';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
+
 function App() {
     return (
         <Router>
+            <TopMenu/>
             <Switch>
-                <Route>
-                    <TopMenu/>
-                </Route>
                 <Route exact path="/">
                     <HomePage/>
                 </Route>
-                <Route exact path="/gaatjes">
+                <Route path="/gaatjes">
                     <CavitiesPage/>
                 </Route>
-                <Route exact path="/afspraak">
+                <Route path="/afspraak">
                     <AppointmentsPage/>
                 </Route>
-                <Route exact path="/tanden-bleken">
+                <Route path="/tanden-bleken">
                     <WhiteningPage/>
                 </Route>
             </Switch>
